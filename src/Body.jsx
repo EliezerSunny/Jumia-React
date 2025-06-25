@@ -22,7 +22,7 @@ function Body() {
 			</div>
 		   
 				<div className="p-2">
-					<img src="img/11-11_660x330v2.jpg" className="rounded w-full" alt="Jumia"/>
+					<img src="img/11-11_660x330v2.jpg" className="rounded " alt="Jumia"/>
 					{/* <img src="img/11-11_660x330v2.jpg" className="rounded " alt="Jumia"/> */}
 				
 				</div>
@@ -39,32 +39,32 @@ function Body() {
 
 					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
 						
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
+						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
 						<img src="img/jumia-black-friday_220x220.png" className="size-14 " alt="Jumia"/>
 						<h5>Black Friday</h5>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
+						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
 						<img src="img/410e2b46-ea24-4f47-bfff-d51b6948d924.png" className="size-14 " alt="Jumia"/>
 						<h5>Phones & Tablets</h5>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
+						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
 						<img src="img/jumia-black-friday_220x220.png" className="size-14 " alt="Jumia"/>
 						<h5>Black Friday</h5>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
+						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
 						<img src="img/410e2b46-ea24-4f47-bfff-d51b6948d924.png" className="size-14 " alt="Jumia"/>
 						<h5>Phones & Tablets</h5>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
+						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
 						<img src="img/jumia-black-friday_220x220.png" className="size-14 " alt="Jumia"/>
 						<h5>Black Friday</h5>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
+						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
 						<img src="img/410e2b46-ea24-4f47-bfff-d51b6948d924.png" className="size-14 " alt="Jumia"/>
 						<h5>Phones & Tablets</h5>
 						</div>
@@ -88,39 +88,39 @@ function Body() {
 
 					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
 						
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%]" alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 						
@@ -141,7 +141,7 @@ function Body() {
 
 				<div className="bg-white">
 
-					<div className="bg-red-600 p-2 text-white flex justify-between">
+					<div className="bg-red-600 p-2 text-white flex justify-between items-center">
 
 						<div className="flex">
 						<div><img src="img/tag.png" className="w-6 mt-2 mr-1" alt="Jumia"/></div>
@@ -161,39 +161,39 @@ function Body() {
 
 					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
 						
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%]" alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 						
@@ -230,39 +230,39 @@ function Body() {
 
 					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
 						
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%]" alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 						
@@ -335,39 +335,39 @@ function Body() {
 
 					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
 						
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%]" alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 						
@@ -456,39 +456,39 @@ function Body() {
 
 					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
 						
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%]" alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 						
@@ -717,39 +717,39 @@ function Body() {
 
 					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
 						
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%]" alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 						
@@ -791,39 +791,39 @@ function Body() {
 
 					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
 						
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%]" alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/1.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/1.jpg" className=" " alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 
-						<div className="w-auto m-2 flex-shrink-0 w-24 flex flex-col items-center">
-						<img src="img/3.jpg" className="w-[40%] " alt="Jumia"/>
-						<h5>Tecno Spark 8p, 6.6'FHD+,64gb+...</h5>
+						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
+						<img src="img/3.jpg" className="" alt="Jumia"/>
+						<h5>Tecno Spark 8p...</h5>
 						<h4><i>#</i> 107,000</h4>
 						</div>
 						
@@ -977,7 +977,7 @@ function Body() {
 
 				<div className="bg-white mb-4">
 
-					<p>Jumia is your number one <b>online shopping site</b> in Nigeria. We are an online store where you can purchase all your <b>electrics</b>, as well as <b>books, home appliances,</b> kiddle items, <b>fashion</b> items for men, and children; cool gadgets, computers, <b>groceries</b>, automobile parts, and more on the go. What more? You can have them delivered directly to you. Shop online with great ease as you pay with <b>JumiaPay</b> which gurantees you the safest online shopping payment method, allowing you to make stress free payments</p>
+					<p className='p-4'>Jumia is your number one <b>online shopping site</b> in Nigeria. We are an online store where you can purchase all your <b>electrics</b>, as well as <b>books, home appliances,</b> kiddle items, <b>fashion</b> items for men, and children; cool gadgets, computers, <b>groceries</b>, automobile parts, and more on the go. What more? You can have them delivered directly to you. Shop online with great ease as you pay with <b>JumiaPay</b> which gurantees you the safest online shopping payment method, allowing you to make stress free payments</p>
 
 					<div className="bg-black p-2 text-white">
 
