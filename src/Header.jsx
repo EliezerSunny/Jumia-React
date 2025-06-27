@@ -56,7 +56,7 @@ function Header() {
 
 						<div className="border p-2 pr-4 ml-12 pl-4 w-[100%] rounded-full">
           <form action="#" method="get">
-            <i className="fa fa-search text-gray-400">Q </i>
+            <i className="fa fa-search text-gray-400"></i>
             <input className="w-[90%] outline-0"
               type="search"
               name="q"
