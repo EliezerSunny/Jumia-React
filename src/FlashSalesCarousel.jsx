@@ -59,16 +59,23 @@ const FlashSalesCarousel = () => {
           transform: `translateX(-${current * (100 / slides.length)}%)`,
         }}
       >
-        {slides.map((slide, index) => (
-          <div key={index} className="w-full flex-shrink-0 p-2">
-            <img
-  src={slide.src}
-  alt={slide.alt}
-  className="w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover rounded-lg"
-/>
 
-          </div>
-        ))}
+        {slides.map((slide, index) => (
+    <div
+      key={index}
+      className="flex-shrink-0"
+      style={{ width: `${100 / slides.length}%`, height: 'auto' }} // set fixed height for uniformity
+    >
+      <div className="w-full h-full p-2">
+        <img
+          src={slide.src}
+          alt={slide.alt}
+          className="w-full h-full object-contain rounded-lg"
+        />
+      </div>
+    </div>
+  ))}
+
       </div>
 
       {/* Dots */}
