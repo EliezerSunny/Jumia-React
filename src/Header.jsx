@@ -47,7 +47,7 @@ function Header() {
 
             <div className="flex justify-between items-center cursor-pointer">
                 <div>
-                  <i className="fa fa-bars text-[20px] size-3 mr-2">=</i>
+                  <i className="fas fa-bars text-[20px] size-3 mr-2">=</i>
                 </div>
                 <div>
                   <img src="img/logo.png" alt="Jumia" />
