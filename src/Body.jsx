@@ -1,4 +1,6 @@
+import Carousel from './FlashSalesCarousel.jsx'
 import FlashSaleCountdown from './FlashSaleCountdown.jsx'
+
 
 
 function Body() {
@@ -9,8 +11,11 @@ function Body() {
   const handleSaleEnd = () => {
     console.log('Sale ended! Disable Buy buttons.');
     // You can set state here to disable purchase options
+
+	
   }
-    
+
+
     return (
         <>
 
@@ -20,12 +25,15 @@ function Body() {
 			<div className="bg-black p-2 col-white text-center">
 				<h4 className="text-white">BLACK FRIDAY IS LIVE!!!</h4>
 			</div>
+
+			{/* image slide */}
 		   
-				<div className="p-2">
-					<img src="img/11-11_660x330v2.jpg" className="rounded " alt="Jumia"/>
-					{/* <img src="img/11-11_660x330v2.jpg" className="rounded " alt="Jumia"/> */}
-				
-				</div>
+		  <Carousel />
+
+				{/* image slide */}
+
+
+
 			</div>
 
 
@@ -977,7 +985,7 @@ function Body() {
 
 				<div className="bg-white mb-4">
 
-					<p className="p-4">Jumia is your number one <b>online shopping site</b> in Nigeria. We are an online store where you can purchase all your <b>electrics</b>, as well as <b>books, home appliances,</b> kiddle items, <b>fashion</b> items for men, and children; cool gadgets, computers, <b>groceries</b>, automobile parts, and more on the go. What more? You can have them delivered directly to you. Shop online with great ease as you pay with <b>JumiaPay</b> which gurantees you the safest online shopping payment method, allowing you to make stress free payments</p>
+					<p className='p-4'>Jumia is your number one <b>online shopping site</b> in Nigeria. We are an online store where you can purchase all your <b>electrics</b>, as well as <b>books, home appliances,</b> kiddle items, <b>fashion</b> items for men, and children; cool gadgets, computers, <b>groceries</b>, automobile parts, and more on the go. What more? You can have them delivered directly to you. Shop online with great ease as you pay with <b>JumiaPay</b> which gurantees you the safest online shopping payment method, allowing you to make stress free payments</p>
 
 					<div className="bg-black p-2 text-white">
 
