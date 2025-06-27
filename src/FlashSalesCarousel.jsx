@@ -53,29 +53,27 @@ const FlashSalesCarousel = () => {
     >
       {/* Slide Track */}
       <div
-        className="flex transition-transform duration-700 ease-in-out p-2"
+        className="flex transition-transform duration-700 ease-in-out"
         style={{
           width: `${slides.length * 100}%`,
           transform: `translateX(-${current * (100 / slides.length)}%)`,
         }}
       >
-
         {slides.map((slide, index) => (
-    <div
-      key={index}
-      className="flex-shrink-0"
-      style={{ width: `${100 / slides.length}%`, height: 'auto' }} // set fixed height for uniformity
-    >
-      <div className="w-full h-full p-2">
-        <img
-          src={slide.src}
-          alt={slide.alt}
-          className="w-full h-full object-contain rounded-lg"
-        />
-      </div>
-    </div>
-  ))}
-
+          <div
+            key={index}
+            className="flex-shrink-0"
+            style={{ width: `${100 / slides.length}%` }}
+          >
+            <div className="w-full h-64 sm:h-72 md:h-80 lg:h-96 p-2 flex items-center justify-center bg-white">
+              <img
+                src={slide.src}
+                alt={slide.alt}
+                className="max-h-full w-auto object-contain rounded-lg"
+              />
+            </div>
+          </div>
+        ))}
       </div>
 
       {/* Dots */}
