@@ -31,7 +31,7 @@ function Footer() {
 					</div>
 
 					<div className="text-center p-4 text-gray-500">
-						<p> &copy; { year } All Rights Reserved</p>
+						<p> &copy; { year } All Rights Reserved. By: <a href="https://github.com/EliezerSunny">EliezerSunny</a></p>
 					</div>
 
 
