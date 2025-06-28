@@ -16,8 +16,8 @@ import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 
 function FooterDiv() {
 
-  const year = new Date().getFullYear("Y");
-  
+	const year = new Date().getFullYear("Y");
+	
   return (
     <Footer container>
       <div className="w-full">
@@ -36,7 +36,7 @@ function FooterDiv() {
               <FooterLinkGroup col>
                 <FooterLink href="#">HELP CENTER</FooterLink>
                 <FooterLink href="#">CONTACT US</FooterLink>
-        <FooterLink href="#">TERMS &amp; CONDITIONS</FooterLink>
+				<FooterLink href="#">TERMS &amp; CONDITIONS</FooterLink>
               </FooterLinkGroup>
             </div>
 
@@ -45,7 +45,7 @@ function FooterDiv() {
               <FooterLinkGroup col>
                 <FooterLink href="#">PRIVACY &amp; COOKIE</FooterLink>
                 <FooterLink href="#">BECOME A SELLER</FooterLink>
-        <FooterLink href="#">REPORT A PRODUCT</FooterLink>
+				<FooterLink href="#">REPORT A PRODUCT</FooterLink>
               </FooterLinkGroup>
             </div>
             <div>
@@ -53,7 +53,7 @@ function FooterDiv() {
               <FooterLinkGroup col>
                 <FooterLink href="#">SHIP YOUR PACKAGE</FooterLink>
                 <FooterLink href="#">BLACK FRIDAY</FooterLink>
-        <FooterLink href="#">ANNIVERSARY DEAL</FooterLink>
+				<FooterLink href="#">ANNIVERSARY DEAL</FooterLink>
               </FooterLinkGroup>
             </div>
           </div>
