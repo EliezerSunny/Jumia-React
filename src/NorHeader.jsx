@@ -1,5 +1,4 @@
 
-
 function Header() {
 
     return (
@@ -42,29 +41,43 @@ function Header() {
 
 
 
-          <div className="bg-white p-2 text-black flex justify-between items-center">
+
+
+          <div className="bg-white p-3 text-black flex justify-between items-center">
 
             <div className="flex justify-between items-center cursor-pointer">
                 <div>
-                  <i className="fas fa-bars text-[20px] size-3 mr-2"></i>
+                  <i className="fas fa-bars text-[20px] size-3 mr-4"></i>
                 </div>
                 <div>
                   <img src="img/logo.png" alt="Jumia" />
                 </div>
             </div>
 
-						<div className="border p-2 pr-4 ml-12 pl-4 w-[100%] rounded-full">
+
+
+            <div className="px-4 py-1 flex items-center ml-4">
+            <i className="fa fa-user text-gray-400 mr-2"></i>
+            <i className="fa fa-shopping-cart text-gray-400 mr-2 ml-2"></i>
+            
+          </div>
+
+
+					</div>
+
+
+
+
+                    <div className="border rounded-full px-4 py-1 flex items-center m-2">
           <form action="#" method="get">
             <i className="fa fa-search text-gray-400"></i>
-            <input className="w-[90%] outline-0"
+            <input className="w-[90%] outline-none border-0 bg-transparent text-sm"
               type="search"
               name="q"
               placeholder="Search products, brands and categories"
             />
           </form>
         </div>
-
-					</div>
 
 
 

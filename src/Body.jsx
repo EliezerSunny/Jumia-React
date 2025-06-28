@@ -1,3 +1,5 @@
+
+
 import Carousel from './FlashSalesCarousel.jsx'
 import FlashSaleCountdown from './FlashSaleCountdown.jsx'
 
@@ -19,6 +21,7 @@ function Body() {
     return (
         <>
 
+
 		<div className="bg-gray-100 text-base">
 
           <div className="bg-white">
@@ -30,6 +33,9 @@ function Body() {
 		   
 		  <Carousel />
 
+		  
+
+
 				{/* image slide */}
 
 
@@ -40,6 +46,8 @@ function Body() {
 			{/* main */}
 
 			<div>
+
+				
 
 				{/* div 1 */}
 
