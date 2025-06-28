@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 import NorHeader from './NorHeader';
 import NorFooter from './NorFooter';
+import NorBody from './NorBody'; // Home page
+
 
 import Body from './Body'; // Home page
 import MainContent from './MainContent'; // Dashboard or any other route
@@ -23,7 +25,7 @@ function App() {
         <Link to="/dashboard">Dashboard</Link>
       </nav>
 
-              <Body />
+              <NorBody />
               <NorFooter />
             </>
           }

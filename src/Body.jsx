@@ -22,11 +22,11 @@ function Body() {
         <>
 
 
-		<div className="bg-gray-100 text-base">
+		<div className="bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-200 text-base">
 
-          <div className="bg-white">
-			<div className="bg-black p-2 col-white text-center">
-				<h4 className="text-white">BLACK FRIDAY IS LIVE!!!</h4>
+          <div className="bg-white dark:bg-gray-900">
+        <div className="bg-black text-center py-2">
+          <h4 className="text-white text-sm font-medium uppercase tracking-wide">BLACK FRIDAY IS LIVE!!!</h4>
 			</div>
 
 			{/* image slide */}
@@ -51,44 +51,30 @@ function Body() {
 
 				{/* div 1 */}
 
-				<div className="bg-white">
-
-					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
-						
-						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/jumia-black-friday_220x220.png" className="size-14 " alt="Jumia"/>
-						<h5>Black Friday</h5>
-						</div>
-
-						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/410e2b46-ea24-4f47-bfff-d51b6948d924.png" className="size-14 " alt="Jumia"/>
-						<h5>Phones & Tablets</h5>
-						</div>
-
-						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/jumia-black-friday_220x220.png" className="size-14 " alt="Jumia"/>
-						<h5>Black Friday</h5>
-						</div>
-
-						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/410e2b46-ea24-4f47-bfff-d51b6948d924.png" className="size-14 " alt="Jumia"/>
-						<h5>Phones & Tablets</h5>
-						</div>
-
-						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/jumia-black-friday_220x220.png" className="size-14 " alt="Jumia"/>
-						<h5>Black Friday</h5>
-						</div>
-
-						<div className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/410e2b46-ea24-4f47-bfff-d51b6948d924.png" className="size-14 " alt="Jumia"/>
-						<h5>Phones & Tablets</h5>
-						</div>
-
-					</div>
-
-				</div>
-
+				{/* Scrollable Icons */}
+      <section className="bg-white dark:bg-gray-900 mt-2 py-2 overflow-x-auto scrollbar-hide">
+        <div className="flex gap-4 px-2">
+          {[
+            { src: "img/jumia-black-friday_220x220.png", title: "Black Friday" },
+            { src: "img/410e2b46-ea24-4f47-bfff-d51b6948d924.png", title: "Phones & Tablets" },
+			{ src: "img/jumia-black-friday_220x220.png", title: "Black Friday" },
+            { src: "img/410e2b46-ea24-4f47-bfff-d51b6948d924.png", title: "Phones & Tablets" },
+			{ src: "img/jumia-black-friday_220x220.png", title: "Black Friday" },
+            { src: "img/410e2b46-ea24-4f47-bfff-d51b6948d924.png", title: "Phones & Tablets" },
+			{ src: "img/jumia-black-friday_220x220.png", title: "Black Friday" },
+            { src: "img/410e2b46-ea24-4f47-bfff-d51b6948d924.png", title: "Phones & Tablets" },
+			{ src: "img/jumia-black-friday_220x220.png", title: "Black Friday" },
+            { src: "img/410e2b46-ea24-4f47-bfff-d51b6948d924.png", title: "Phones & Tablets" },
+			{ src: "img/jumia-black-friday_220x220.png", title: "Black Friday" },
+            { src: "img/410e2b46-ea24-4f47-bfff-d51b6948d924.png", title: "Phones & Tablets" },
+          ].map((item, index) => (
+            <div key={index} className="w-auto m-2 flex-shrink-0 flex flex-col items-center">
+              <img src={item.src} alt={item.title} className="size-14 shadow" />
+              <h5 className="text-sm text-center mt-1">{item.title}</h5>
+            </div>
+          ))}
+        </div>
+      </section>
 				{/* div 1 */}
 
 
@@ -96,54 +82,21 @@ function Body() {
 
 			{/* div 2 */}
 
-				<div className="bg-white">
-
-					<div className="bg-black p-2 col-white">
-						<h4 className="text-white">Recommended for you</h4>
-					</div>
-
-					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
-						
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-						
-
-					</div>
-
-				</div>
+				{/* Recommended */}
+      <section className="bg-white dark:bg-gray-900 mt-4">
+        <div className="bg-gray-800 dark:bg-gray-700 p-2">
+          <h4 className="text-white text-base font-semibold">Recommended for you</h4>
+        </div>
+        <div className="flex overflow-x-auto gap-4 p-2 scrollbar-hide">
+          {[1, 2, 3, 4, 5, 6].map((_, idx) => (
+            <div key={idx} className="flex-shrink-0 w-36 text-center">
+              <img src="img/1.jpg" className="rounded shadow" alt="Product" />
+              <h5 className="text-sm mt-2">Tecno Spark 8p...</h5>
+              <h4 className="text-primary-600 font-bold">₦107,000</h4>
+            </div>
+          ))}
+        </div>
+      </section>
 
 				{/* div 2 */}
 
@@ -155,68 +108,28 @@ function Body() {
 
 				{/* div 3 */}
 
-				<div className="bg-white">
-
-					<div className="bg-red-600 p-2 text-white flex justify-between items-center">
-
-						<div className="flex">
-						<div><img src="img/tag.png" className="w-6 mt-2 mr-1" alt="Jumia"/></div>
-						<div className=" text-600">
-							<h4 className="text-white">Flash Sales</h4>
-						<span id="countDown"><FlashSaleCountdown endTime={saleEndTime} onEnd={handleSaleEnd} />
-        				</span>
-						</div>
-						</div>
-
-						<div>
-							<h4> <strong>SEE ALL</strong> </h4>
-						</div>
-
-					</div>
-
-
-					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
-						
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-						
-
-					</div>
-
-				</div>
+				{/* Flash Sales */}
+      <section className="bg-white dark:bg-gray-900 mt-4">
+        <div className="bg-red-600 text-white p-3 flex justify-between items-center">
+          <div className="flex items-center gap-2">
+            <img src="img/tag.png" className="w-6" alt="Tag" />
+            <div>
+              <h4 className="text-sm font-semibold">Flash Sales</h4>
+              <FlashSaleCountdown endTime={saleEndTime} onEnd={handleSaleEnd} />
+            </div>
+          </div>
+          <h4 className="text-xs font-bold uppercase tracking-wider">See All</h4>
+        </div>
+        <div className="flex overflow-x-auto gap-4 p-2 scrollbar-hide">
+          {[1, 2, 3, 4, 5, 6].map((_, idx) => (
+            <div key={idx} className="w-36 flex-shrink-0 text-center">
+              <img src="img/1.jpg" className="rounded shadow" alt="Product" />
+              <h5 className="text-sm mt-2">Tecno Spark 8p...</h5>
+              <h4 className="text-primary-600 font-bold">₦107,000</h4>
+            </div>
+          ))}
+        </div>
+      </section>
 
 				{/* div 3 */}
 
@@ -227,65 +140,22 @@ function Body() {
 
 		{/* div 4 */}
 
-				<div className="bg-white">
-
-					<div className="bg-violet-300 p-2 text-black flex justify-between">
-
-						<div className="flex ">
-						<div>
-							<h4 className="text-black">Top Voted Deals</h4>
-						</div>
-						</div>
-
-						<div>
-							<h4> <strong>SEE ALL</strong> </h4>
-						</div>
-
-					</div>
-
-
-					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
-						
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-						
-
-					</div>
-
-				</div>
+				{/* Top Voted Deals */}
+      <section className="bg-white dark:bg-gray-900 mt-4">
+        <div className="bg-violet-500 p-2 text-white flex justify-between items-center">
+          <h4 className="text-sm font-semibold">Top Voted Deals</h4>
+          <span className="text-xs uppercase font-bold">See All</span>
+        </div>
+        <div className="flex overflow-x-auto gap-4 p-2 scrollbar-hide">
+          {[1, 2, 3, 4, 5, 6].map((_, idx) => (
+            <div key={idx} className="w-36 flex-shrink-0 text-center">
+              <img src="img/3.jpg" className="rounded shadow" alt="Deal" />
+              <h5 className="text-sm mt-2">Tecno Spark 8p...</h5>
+              <h4 className="text-primary-600 font-bold">₦107,000</h4>
+            </div>
+          ))}
+        </div>
+      </section>
 
 				{/* div 4 */}
 
@@ -295,33 +165,20 @@ function Body() {
 
 			{/* div 5 */}
 
-				<div className="bg-white">
-
-					<div className="m-2 p-2 grid grid-cols-4 items-center">
-						
-						<div className="m-2">
-						<img src="img/tbm__300x300_copy_12.png" className="rounded" alt="Jumia"/>
-						<h5>Electronics</h5>
-						</div>
-
-						<div className="m-2">
-						<img src="img/tbm__300x300_copy_20.png" className="rounded" alt="Jumia"/>
-						<h5>Gaming</h5>
-						</div>
-
-						<div className="m-2">
-						<img src="img/tbm__300x300_copy_19.png" className="rounded" alt="Jumia"/>
-						<h5>Fitness</h5>
-						</div>
-
-						<div className="m-2">
-						<img src="img/tbm__300x300_copy_12.png" className="rounded" alt="Jumia"/>
-						<h5>Electronics</h5>
-						</div>
-
-					</div>
-
-				</div>
+				{/* Categories Grid */}
+      <section className="bg-white dark:bg-gray-900 mt-4 p-4 grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center">
+        {[
+          { img: "img/tbm__300x300_copy_12.png", title: "Electronics" },
+          { img: "img/tbm__300x300_copy_20.png", title: "Gaming" },
+          { img: "img/tbm__300x300_copy_19.png", title: "Fitness" },
+          { img: "img/tbm__300x300_copy_12.png", title: "Electronics" },
+        ].map((item, idx) => (
+          <div key={idx} className="text-center">
+            <img src={item.img} className="rounded-lg shadow w-full" alt={item.title} />
+            <h5 className="text-sm mt-2 font-medium">{item.title}</h5>
+          </div>
+        ))}
+      </section>
 
 				{/* div 5 */}
 
@@ -332,65 +189,24 @@ function Body() {
 
 		{/* div 6 */}
 
-				<div className="bg-white">
+		{/* Umidigi Official Store */}
+      <section className="bg-white dark:bg-gray-900 mt-4">
+        <div className="bg-violet-500 p-2 text-white flex justify-between items-center">
+          <h4 className="text-sm font-semibold">Umidigi Official Store</h4>
+          <span className="text-xs uppercase font-bold">See All</span>
+        </div>
+        <div className="flex overflow-x-auto gap-4 p-2 scrollbar-hide">
+          {[1, 2, 3, 4, 5, 6].map((_, idx) => (
+            <div key={idx} className="w-36 flex-shrink-0 text-center">
+              <img src="img/1.jpg" className="rounded shadow" alt="Deal" />
+              <h5 className="text-sm mt-2">Tecno Spark 8p...</h5>
+              <h4 className="text-primary-600 font-bold">₦107,000</h4>
+            </div>
+          ))}
+        </div>
+      </section>
 
-					<div className="bg-black p-2 text-white flex justify-between">
-
-						<div className="flex ">
-						<div>
-							<h4 className="text-white">Umidigi Official Store</h4>
-						</div>
-						</div>
-
-						<div>
-							<h4> <strong>SEE ALL</strong> </h4>
-						</div>
-
-					</div>
-
-
-					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
-						
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-						
-
-					</div>
-
-				</div>
+				
 
 				{/* div 6 */}
 
@@ -402,117 +218,26 @@ function Body() {
 
 			{/* div 7 */}
 
-				<div className="bg-white">
+			{/* Categories Grid */}
+      <section className="bg-white dark:bg-gray-900 mt-4 p-4 grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center">
+        {[
+          { img: "img/luggage-sets_260x144.png" },
+          { img: "img/official_260x144.png" },
+          { img: "img/jumia-services_260x14.png" },
+          { img: "img/jumiaglobal_260x144.png" },
+		  { img: "img/adidas_260x144_v2.png" },
+		  { img: "img/diageo_260x144.png" },
+		  { img: "img/nivea_260x144v2.png" },
+		  { img: "img/xiaomi_260x144v2.png" },
+        ].map((item, idx) => (
+          <div key={idx} className="text-center">
+            <img src={item.img} className="rounded-lg shadow w-full" />
+            {/* <h5 className="text-sm mt-2 font-medium">{item.title}</h5> */}
+          </div>
+        ))}
+      </section>
 
-					<div className="m-2 p-2 grid grid-cols-4 items-center">
-						
-						<div className="m-2">
-						<img src="img/luggage-sets_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/official_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/jumia-services_260x14.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/jumiaglobal_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/adidas_260x144_v2.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/diageo_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/nivea_260x144v2.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/xiaomi_260x144v2.png" className="rounded" alt="Jumia"/>
-						</div>
-
-
-					</div>
-
-				</div>
-
-				{/* div 7 */}
-
-
-
-
-
-
-
-		{/* div 8 */}
-
-				<div className="bg-white">
-
-					<div className="bg-black p-2 text-white flex justify-between">
-
-						<div className="flex ">
-						<div>
-							<h4 className="text-white">Black Friday Deals</h4>
-						</div>
-						</div>
-
-						<div>
-							<h4> <strong>SEE ALL</strong> </h4>
-						</div>
-
-					</div>
-
-
-					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
-						
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-						
-
-					</div>
-
-				</div>
-
+				
 				{/* div 8 */}
 
 
@@ -523,61 +248,35 @@ function Body() {
 
 			{/* div 9 */}
 
-				<div className="bg-white">
 
-					<div className="bg-violet-300 p-2 text-black flex justify-between">
-
-						<div className="flex ">
-						<div>
-							<h4 className="text-black">Shop From Our Collections</h4>
-						</div>
-						</div>
-
-						{/* <div>
-							<h4> <strong>SEE ALL</strong> </h4>
-						</div> */}
-
-					</div>
-
-
-					<div className="m-2 p-2 grid grid-cols-4 items-center">
-						
-						<div className="m-2">
-						<img src="img/phone-deals_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/detty-december_260x14.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/1-laptops_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/gaming_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/drones_260x144v2.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/phone-deals_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/detty-december_260x14.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/gaming_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
+			{/* Shop From Our Collections */}
+      <section className="bg-white dark:bg-gray-900 mt-4">
+        <div className="bg-violet-500 p-2 text-white flex justify-between items-center">
+          <h4 className="text-sm font-semibold">Shop From Our Collections</h4>
+          {/* <span className="text-xs uppercase font-bold">See All</span> */}
+        </div>
+        <div className="p-4 grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center">
+          {[
+          { img: "img/phone-deals_260x144.png" },
+          { img: "img/detty-december_260x14.png" },
+          { img: "img/1-laptops_260x144.png" },
+          { img: "img/gaming_260x144.png" },
+		  { img: "img/drones_260x144v2.png" },
+		  { img: "img/phone-deals_260x144.png" },
+		  { img: "img/detty-december_260x14.png" },
+		  { img: "img/gaming_260x144.png" },
+        ].map((item, idx) => (
+          <div key={idx} className="text-center">
+            <img src={item.img} className="rounded-lg shadow w-full" />
+            {/* <h5 className="text-sm mt-2 font-medium">{item.title}</h5> */}
+          </div>
+        ))}
+        </div>
+      </section>
 
 
-					</div>
 
-				</div>
+				
 
 				{/* div 9 */}
 
@@ -591,61 +290,34 @@ function Body() {
 
 			{/* div 10 */}
 
-				<div className="bg-white">
-
-					<div className="bg-violet-300 p-2 text-black flex justify-between">
-
-						<div className="flex ">
-						<div>
-							<h4 className="text-black">More Deals</h4>
-						</div>
-						</div>
-
-						{/* <div>
-							<h4> <strong>SEE ALL</strong> </h4>
-						</div> */}
-
-					</div>
 
 
-					<div className="m-2 p-2 grid grid-cols-4 items-center">
-						
-						<div className="m-2">
-						<img src="img/treasure-hunt_300x300v2.png" className="rounded" alt="Jumia"/>
-						</div>
+			{/* Umidigi Official Store */}
+      <section className="bg-white dark:bg-gray-900 mt-4">
+        <div className="bg-violet-500 p-2 text-white flex justify-between items-center">
+          <h4 className="text-sm font-semibold">More Deals</h4>
+          {/* <span className="text-xs uppercase font-bold">See All</span> */}
+        </div>
+        <div className="p-4 grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center">
+          {[
+          { img: "img/treasure-hunt_300x300v2.png" },
+          { img: "img/jumia-games-2022v2.gif" },
+          { img: "img/buymore-savemore_300x300.jpg" },
+          { img: "img/treasure-hunt_300x300v2.png" },
+		  { img: "img/buymore-savemore_300x300.jpg" },
+		  { img: "img/treasure-hunt_300x300v2.png" },
+		  { img: "img/buymore-savemore_300x300.jpg" },
+		  { img: "img/treasure-hunt_300x300v2.png" },
+        ].map((item, idx) => (
+          <div key={idx} className="text-center">
+            <img src={item.img} className="rounded-lg shadow w-full" />
+            {/* <h5 className="text-sm mt-2 font-medium">{item.title}</h5> */}
+          </div>
+        ))}
+        </div>
+      </section>
 
-						<div className="m-2">
-						<img src="img/jumia-games-2022v2.gif" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/buymore-savemore_300x300.jpg" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/treasure-hunt_300x300v2.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/buymore-savemore_300x300.jpg" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/treasure-hunt_300x300v2.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/buymore-savemore_300x300.jpg" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/treasure-hunt_300x300v2.png" className="rounded" alt="Jumia"/>
-						</div>
-
-
-					</div>
-
-				</div>
+				
 
 				{/* div 10 */}
 
@@ -658,61 +330,30 @@ function Body() {
 
 			{/* div 11 */}
 
-				<div className="bg-white">
-
-					<div className="bg-violet-300 p-2 text-black flex justify-between">
-
-						<div className="flex ">
-						<div>
-							<h4 className="text-black">More Collections</h4>
-						</div>
-						</div>
-
-						{/* <div>
-							<h4> <strong>SEE ALL</strong> </h4>
-						</div> */}
-
-					</div>
-
-
-					<div className="m-2 p-2 grid grid-cols-4 items-center">
-						
-						<div className="m-2">
-						<img src="img/phone-deals_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/detty-december_260x14.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/1-laptops_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/gaming_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/drones_260x144v2.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/phone-deals_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/detty-december_260x14.png" className="rounded" alt="Jumia"/>
-						</div>
-
-						<div className="m-2">
-						<img src="img/gaming_260x144.png" className="rounded" alt="Jumia"/>
-						</div>
-
-
-					</div>
-
-				</div>
+				{/* More Collections */}
+      <section className="bg-white dark:bg-gray-900 mt-4">
+        <div className="bg-violet-500 p-2 text-white flex justify-between items-center">
+          <h4 className="text-sm font-semibold">More Collections</h4>
+          {/* <span className="text-xs uppercase font-bold">See All</span> */}
+        </div>
+        <div className="p-4 grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center">
+          {[
+          { img: "img/phone-deals_260x144.png" },
+          { img: "img/detty-december_260x14.png" },
+          { img: "img/1-laptops_260x144.png" },
+          { img: "img/gaming_260x144.png" },
+		  { img: "img/drones_260x144v2.png" },
+		  { img: "img/phone-deals_260x144.png" },
+		  { img: "img/detty-december_260x14.png" },
+		  { img: "img/gaming_260x144.png" },
+        ].map((item, idx) => (
+          <div key={idx} className="text-center">
+            <img src={item.img} className="rounded-lg shadow w-full" />
+            {/* <h5 className="text-sm mt-2 font-medium">{item.title}</h5> */}
+          </div>
+        ))}
+        </div>
+      </section>
 
 				{/* div 11 */}
 
@@ -725,55 +366,24 @@ function Body() {
 
 			{/* div 12 */}
 
-				<div className="bg-white">
+			{/* Umidigi Official Store */}
+      <section className="bg-white dark:bg-gray-900 mt-4">
+        <div className="bg-black p-2 text-white flex justify-between items-center">
+          <h4 className="text-sm font-semibold">Accessary Deals</h4>
+          <span className="text-xs uppercase font-bold">See All</span>
+        </div>
+        <div className="flex overflow-x-auto gap-4 p-2 scrollbar-hide">
+          {[1, 2, 3, 4, 5, 6].map((_, idx) => (
+            <div key={idx} className="w-36 flex-shrink-0 text-center">
+              <img src="img/1.jpg" className="rounded shadow" alt="Deal" />
+              <h5 className="text-sm mt-2">Tecno Spark 8p...</h5>
+              <h4 className="text-primary-600 font-bold">₦107,000</h4>
+            </div>
+          ))}
+        </div>
+      </section>
 
-					<div className="bg-black p-2 col-white">
-						<h4 className="text-white">Accessary Deals</h4>
-					</div>
-
-					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
-						
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-						
-
-					</div>
-
-				</div>
-
+				
 				{/* div 12 */}
 
 
@@ -788,65 +398,22 @@ function Body() {
 
 		{/* div 13 */}
 
-				<div className="bg-white">
-
-					<div className="bg-black p-2 text-white flex justify-between">
-
-						<div className="flex ">
-						<div>
-							<h4 className="text-white">Top Deals</h4>
-						</div>
-						</div>
-
-						<div>
-							<h4> <strong>SEE ALL</strong> </h4>
-						</div>
-
-					</div>
-
-
-					<div className="m-2 overflow-x-auto flex whitespace-nowrap scrollbar-hide">
-						
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/1.jpg" className=" " alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-
-						<div className="w-[32%] m-2 flex-shrink-0 flex flex-col items-center">
-						<img src="img/3.jpg" className="" alt="Jumia"/>
-						<h5>Tecno Spark 8p...</h5>
-						<h4><i>#</i> 107,000</h4>
-						</div>
-						
-
-					</div>
-
-				</div>
+				{/* Umidigi Official Store */}
+      <section className="bg-white dark:bg-gray-900 mt-4">
+        <div className="bg-black p-2 text-white flex justify-between items-center">
+          <h4 className="text-sm font-semibold">Top Deals</h4>
+          <span className="text-xs uppercase font-bold">See All</span>
+        </div>
+        <div className="flex overflow-x-auto gap-4 p-2 scrollbar-hide">
+          {[1, 2, 3, 4, 5, 6].map((_, idx) => (
+            <div key={idx} className="w-36 flex-shrink-0 text-center">
+              <img src="img/1.jpg" className="rounded shadow" alt="Deal" />
+              <h5 className="text-sm mt-2">Tecno Spark 8p...</h5>
+              <h4 className="text-primary-600 font-bold">₦107,000</h4>
+            </div>
+          ))}
+        </div>
+      </section>
 
 				{/* div 13 */}
 
@@ -859,126 +426,50 @@ function Body() {
 
 			{/* div 14 */}
 
-				<div className="bg-white">
+			{/* More Collections */}
+      <section className="bg-white dark:bg-gray-900 mt-4">
+        <div className="bg-violet-500 p-2 text-white flex justify-between items-center">
+          <h4 className="text-sm font-semibold">Official Stores</h4>
+          {/* <span className="text-xs uppercase font-bold">See All</span> */}
+        </div>
+        <div className="p-4 grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 items-center">
+          {[
+          { img: "img/umidigi_260x144v2.png" },
+          { img: "img/oraimo_260x144.png" },
+          { img: "img/tcl_260x144.png" },
+          { img: "img/samsung_260x144.png" },
+		  { img: "img/coca-cola_260x144v2.png" },
+		  { img: "img/apple_260x144.png" },
+		  { img: "img/pernod-ricard_260x144.png" },
+		  { img: "img/slazenger_260x144.png" },
 
-					<div className="bg-violet-300 p-2 text-black flex justify-between">
+		  { img: "img/binatone_260x144.png" },
+          { img: "img/edifier_260x144.png" },
+          { img: "img/intel_260x144.png" },
+          { img: "img/nexus_260x144.png" },
+		  { img: "img/kuhl_260x144.png" },
+		  { img: "img/tecno_260x144.png" },
+		  { img: "img/weyon_260x144.png" },
+		  { img: "img/blackview_260x144.png" },
+		  
+		  { img: "img/skyrun_260x144.png" },
+          { img: "img/unilever_260x144v3.png" },
+          { img: "img/nike_260x144.png" },
+          { img: "img/defacto_260x144v2.png" },
+		  { img: "img/qubo_260x144.png" },
+		  { img: "img/nestle_260x144.png" },
+		  { img: "img/adidas_260x144_v2.png" },
+		  { img: "img/reckitt_260x144v2.png" },
+        ].map((item, idx) => (
+          <div key={idx} className="text-center">
+            <img src={item.img} className="rounded-lg shadow w-full" />
+            {/* <h5 className="text-sm mt-2 font-medium">{item.title}</h5> */}
+          </div>
+        ))}
+        </div>
+      </section>
 
-						<div className="flex ">
-						<div>
-							<h4 className="text-black">Official Stores</h4>
-						</div>
-						</div>
-
-						{/* <div>
-							<h4> <strong>SEE ALL</strong> </h4>
-						</div> */}
-
-					</div>
-
-
-					<div className="m-2 p-2 grid grid-cols-4 items-center">
-
-						
-				
-		<div className="m-2">
-			<img src="img/umidigi_260x144v2.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/oraimo_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/samsung_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/coca-cola_260x144v2.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/apple_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/pernod-ricard_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/slazenger_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/tcl_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/binatone_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/edifier_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/intel_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/tecno_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/nexus_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/kuhl_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/weyon_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/blackview_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/skyrun_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/unilever_260x144v3.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/nike_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/defacto_260x144v2.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/qubo_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/nestle_260x144.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/adidas_260x144_v2.png" className="rounded" alt="Jumia"/>
-		</div>
-
-		<div className="m-2">
-			<img src="img/reckitt_260x144v2.png" className="rounded" alt="Jumia"/>
-		</div>
-
-					</div>
-
-				</div>
+	
 
 				{/* div 14 */}
 
@@ -991,19 +482,17 @@ function Body() {
 
 			{/* div 15 */}
 
-				<div className="bg-white mb-4">
-
-					<p className='p-4'>Jumia is your number one <b>online shopping site</b> in Nigeria. We are an online store where you can purchase all your <b>electrics</b>, as well as <b>books, home appliances,</b> kiddle items, <b>fashion</b> items for men, and children; cool gadgets, computers, <b>groceries</b>, automobile parts, and more on the go. What more? You can have them delivered directly to you. Shop online with great ease as you pay with <b>JumiaPay</b> which gurantees you the safest online shopping payment method, allowing you to make stress free payments</p>
-
-					<div className="bg-black p-2 text-white">
-
-						<div className="text-center">
-							<h4><strong>SHOW MORE</strong></h4>
-						</div>
-
-					</div>
-
-				</div>
+				{/* Description Footer */}
+      <section className="bg-white dark:bg-gray-900 mt-6">
+        <p className="p-4 text-sm leading-relaxed">
+          Jumia is your number one <b>online shopping site</b> in Nigeria. We are an online store where you can
+          purchase all your <b>electronics</b>, <b>books, home appliances, fashion</b>, and much more.
+          Pay easily with <b>JumiaPay</b> for stress-free shopping!
+        </p>
+        <div className="bg-black text-white text-center p-3">
+          <h4 className="text-sm font-semibold uppercase tracking-wide">Show More</h4>
+        </div>
+      </section>
 
 				{/* div 15 */}
 

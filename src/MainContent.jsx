@@ -139,9 +139,9 @@ function MainContent() {
           </div>
 
           <div className="px-4 py-1 flex items-center ml-4">
-            <i className="fa fa-user text-gray-400 mr-2"></i>
+            <i className="fa fa-user text-gray-400"></i>
             <i className="fa fa-shopping-cart text-gray-400 mr-2 ml-2"></i>
-            <i className="text-gray-400 mr-2 ml-2"><DarkThemeToggle /></i>
+            <i className="text-gray-400 mr-2"><DarkThemeToggle /></i>
             
           </div>
 
