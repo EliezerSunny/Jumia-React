@@ -12,6 +12,7 @@ import {
   SidebarItems,
   SidebarCTA,
   Badge,
+  SidebarLogo,
   DarkThemeToggle,
 } from "flowbite-react";
 
@@ -36,6 +37,9 @@ function MainContent() {
       {/* Sidebar - Desktop */}
       <aside className="hidden md:flex w-64 flex-shrink-0">
         <Sidebar className="w-full h-full" aria-label="Sidebar">
+          <SidebarLogo href="#" img="/img/app-link.png" imgAlt="Jumia logo">
+        Jumia
+      </SidebarLogo>
           <SidebarItems>
             <SidebarItemGroup>
               <SidebarItem href="/" icon={HiChartPie}>Home</SidebarItem>
@@ -73,6 +77,9 @@ function MainContent() {
         <div className="fixed inset-0 z-50 flex md:hidden">
           <div className="w-64 bg-white dark:bg-gray-800 shadow-lg">
             <Sidebar className="h-full" aria-label="Mobile Sidebar">
+              <SidebarLogo href="#" img="/img/app-link.png" imgAlt="Jumia logo">
+        Jumia
+      </SidebarLogo>
               <SidebarItems>
                 <SidebarItemGroup>
                   <SidebarItem href="/" icon={HiChartPie}>Home</SidebarItem>
@@ -128,12 +135,13 @@ function MainContent() {
         <div className="sticky top-0 z-30 bg-white dark:bg-gray-800 p-2 pt-4 px-4 text-black dark:text-white flex justify-between items-center border-b dark:border-gray-700 shadow-sm">
           <div className="flex items-center gap-3 cursor-pointer">
             <i className="fas fa-bars md:hidden lg:hidden text-lg" onClick={toggleMobileSidebar}></i>
-            <img src="img/logo.png" alt="Jumia" className="h-8" />
+            <img src="/img/app-link.png" alt="Jumia" className="h-8" /> JUMIA
           </div>
 
           <div className="px-4 py-1 flex items-center ml-4">
             <i className="fa fa-user text-gray-400 mr-2"></i>
             <i className="fa fa-shopping-cart text-gray-400 mr-2 ml-2"></i>
+            <i className="text-gray-400 mr-2 ml-2"><DarkThemeToggle /></i>
             
           </div>
 
@@ -143,7 +151,7 @@ function MainContent() {
             <i className="fa fa-search text-gray-400 mr-2"></i>
             <form action="#" method="get" className="w-full">
               <input
-                className="w-full outline-none border-0 bg-transparent text-sm text-black dark:text-white placeholder-gray-400 dark:placeholder-gray-300"
+                className="w-full outline-0 border-0 bg-transparent text-sm text-black dark:text-white placeholder-gray-400 dark:placeholder-gray-300"
                 type="search"
                 name="q"
                 placeholder="Search products, brands and categories"
